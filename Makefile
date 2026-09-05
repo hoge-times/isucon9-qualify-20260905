@@ -7,7 +7,7 @@ mysql_auth =
 # ベンチ(練習: i1 で実行 / 本戦: ポータルから)
 .PHONY: bench
 bench:
-	ssh i1 'cd isucari && bin/benchmarker'
+	ssh i1 'cd isucari && bin/benchmarker -target-url http://127.0.0.1'
 
 # アプリ、nginx、mysql の再起動
 .PHONY: re

@@ -1,0 +1,10 @@
+*.prof
+*.pb
+*.pb.gz
+/memo
+hoge.txt
+.DS_Store
+/go/isucari
+/mysql/debian.cnf
+/public/upload/
+/sql/initial.sql
